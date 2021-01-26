@@ -1,0 +1,48 @@
+#mainPanelB{-fx-background-color: #ebebeb;}
+#mainPanelW{-fx-background-color: #282c34;}
+
+.CustomMenuItem {
+    -fx-effect: null;
+}
+
+.navButtons{
+    -fx-min-width: 25px;
+    -fx-background-size: 15px 15px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+}
+
+.navButtons:hover{-fx-background-color: #b4b4b4;}
+
+#button0B{-fx-background-image: url('../Assets/back.png');}
+#button1B{-fx-background-image: url('../Assets/ahead.png');}
+#button2B{-fx-background-image: url('../Assets/reload.png');}
+#button3B{-fx-background-image: url('../Assets/favorite.png'); -fx-background-color: #ffbe1b}
+#button4B{-fx-background-image: url('../Assets/search.png');}
+
+#button0W{-fx-background-image: url('../Assets/backW.png');}
+#button1W{-fx-background-image: url('../Assets/aheadW.png');}
+#button2W{-fx-background-image: url('../Assets/reloadW.png');}
+#button3W{-fx-background-image: url('../Assets/favoriteW.png'); -fx-background-color: #ffbe1b}
+#button4W{-fx-background-image: url('../Assets/searchW.png');}
+
+.rootMenu{
+    -fx-padding: 0;
+    -fx-background-size: 15px 15px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+}
+.rootMenu > .arrow-button{-fx-padding: 0;}
+
+.rootMenu > .arrow-button > .arrow{
+    -fx-padding: 0;
+    -fx-background-color: transparent;
+}
+
+#rootMenuB{-fx-background-image: url('../Assets/menu.png');}
+#rootMenuW{-fx-background-image: url('../Assets/menuW.png');}
+
+.zoomButton{-fx-background-color: transparent;}
+
